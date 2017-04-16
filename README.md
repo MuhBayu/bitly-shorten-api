@@ -18,7 +18,7 @@ Pilihan Short Domain:
 <li>(1) => bit.ly</li>
 <li>(2) => j.mp</li>
 <li>(3) => bitly.com</li>
-<ul>
+</ul>
 <br/><br/>
 
 $bitly->setFormat() <br/>
@@ -27,7 +27,7 @@ Pilihan Format:
 <li>json</li>
 <li>xml</li>
 <li>txt</li>
-<ul>
+</ul>
 <br/><br/>
 
 >> Untuk mendapatkan ID AKUN dan API KEY silahkan anda membuat akun bitly (http://bitly.com/a/your_api_key)
