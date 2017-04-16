@@ -4,13 +4,13 @@ Bitly Shorten API
 # USAGE
 
 $bitly->setAuthID('YOUR_ACCOUNT_ID') <br/>
-ISI DENGAN ID AKUN KAMU <br/><br/>
+ISI DENGAN ID AKUN KAMU <br/>
 
 $bitly->setApiKey('YOUR_API_KEY') <br/>
-ISI DENGAN API KEY KAMU <br/><br/>
+ISI DENGAN API KEY KAMU <br/>
 
 $bitly->setSLL() <br/>
-JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI BER-SSL (https), SILAHKAN BERI NILAI (TRUE) <br/><br/>
+JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI BER-SSL (https), SILAHKAN BERI NILAI (TRUE) <br/>
 
 $bitly->setDomain() <br/>
 Pilihan Short Domain: 
@@ -19,7 +19,7 @@ Pilihan Short Domain:
 <li>(2) => j.mp</li>
 <li>(3) => bitly.com</li>
 </ul>
-<br/><br/>
+<br/>
 
 $bitly->setFormat() <br/>
 Pilihan Format: 
