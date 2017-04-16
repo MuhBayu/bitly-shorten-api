@@ -10,7 +10,12 @@ $bitly->setApiKey('YOUR_API_KEY') <br/>
 ISI DENGAN API KEY KAMU <br/>
 
 $bitly->setSLL() <br/>
-JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI BER-SSL (https), SILAHKAN BERI NILAI (TRUE) <br/>
+Pilihan: 
+<ul>
+<li>(TRUE) => JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI BER-SSL (https)</li>
+<li>(FALSE) => JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI TIDAK BER-SSL (http)</li>
+</ul>
+<br/>
 
 $bitly->setDomain() <br/>
 Pilihan Short Domain: 
