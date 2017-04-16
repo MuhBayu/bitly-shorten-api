@@ -3,17 +3,16 @@ Bitly Shorten API
 
 # USAGE
 
-$bitly->setAuthID('YOUR_ACCOUNT_ID') <br/>
-ISI DENGAN ID AKUN KAMU <br/>
-
-$bitly->setApiKey('YOUR_API_KEY') <br/>
-ISI DENGAN API KEY KAMU <br/>
+<ul>
+<li>$bitly->setAuthID('YOUR_ACCOUNT_ID') => Isi dengan ID Akun Anda </li>
+<li>$bitly->setApiKey('YOUR_API_KEY') => Isi dengan API_KEY Anda </li>
+</ul>
 
 $bitly->setSLL() <br/>
 Pilihan: 
 <ul>
-<li>(TRUE) => JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI BER-SSL (https)</li>
-<li>(FALSE) => JIKA WEBSITE ANDA YANG MANJALANKAN FILE INI TIDAK BER-SSL (http)</li>
+<li>(TRUE) => Jika website Anda yang menjalankan file ini ber-SSL (https)</li>
+<li>(FALSE) => Jika website Anda yang menjalankan file ini tidak ber-SSL (http)</li>
 </ul>
 <br/>
 
