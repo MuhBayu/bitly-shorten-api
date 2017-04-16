@@ -1,7 +1,12 @@
 <?php
+
 /**
-* 
+* Bitly Shorten API
+* date: 16 Apr 2017
+* http://bayuu.net
+* http://github.com/MuhBayu
 */
+
 class Bitly_API
 {
 	protected static $_OAuth;
@@ -14,7 +19,7 @@ class Bitly_API
 	{
 		$this->_SSL_VERIFY = FALSE; // DEFAULT-nya FALSE
 		$this->_SHORT_DOMAIN = 'bit.ly'; // DEFAULT domain
-		$this->_OUTPUT_FORMAT = 'json';
+		$this->_OUTPUT_FORMAT = 'json'; // DEFAULT format
 	}
 	public function setAuthID($id) {
 		$this->_OAuth = $id;
