@@ -4,20 +4,20 @@ Bitly Shorten API
 # USAGE
 
 <ul>
-<li>$bitly->setAuthID('YOUR_ACCOUNT_ID') => Isi dengan ID Akun Anda </li>
-<li>$bitly->setApiKey('YOUR_API_KEY') => Isi dengan API_KEY Anda </li>
+<li>$bitly->setAuthID('YOUR_ACCOUNT_ID') => Fill in with your Account ID </li>
+<li>$bitly->setApiKey('YOUR_API_KEY') => Fill in with your API KEY </li>
 </ul>
 
 $bitly->setSLL() <br/>
-Pilihan: 
+Option: 
 <ul>
-<li>(TRUE) => Jika website Anda yang menjalankan file ini ber-SSL (https)</li>
-<li>(FALSE) => Jika website Anda yang menjalankan file ini tidak ber-SSL (http)</li>
+<li>(TRUE) => enable it if your site using HTTPS</li>
+<li>(FALSE) => disable it if your site using HTTP</li>
 </ul>
 <br/>
 
 $bitly->setDomain() <br/>
-Pilihan Short Domain: 
+Option Short Domain: 
 <ul>
 <li>(1) => bit.ly</li>
 <li>(2) => j.mp</li>
@@ -26,7 +26,7 @@ Pilihan Short Domain:
 <br/>
 
 $bitly->setFormat() <br/>
-Pilihan Format: 
+Option Format: 
 <ul>
 <li>json</li>
 <li>xml</li>
@@ -34,4 +34,4 @@ Pilihan Format:
 </ul>
 <br/><br/>
 
->> Untuk mendapatkan ID AKUN dan API KEY silahkan anda membuat akun bitly (http://bitly.com/a/your_api_key)
+>> To get the ACCOUNT ID and the KEY API please create a bitly account (http://bitly.com/a/your_api_key)
